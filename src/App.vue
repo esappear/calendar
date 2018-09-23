@@ -1,28 +1,43 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Calendar v-model="date" />
   </div>
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
+<script lang="ts">
+import Vue from 'vue';
+import Calendar from './components/Calendar.vue';
+import CalendarSvc from './services/calendar';
 
-export default {
+export default Vue.extend({
   name: 'app',
+  data() {
+    return {
+      date: CalendarSvc.getToday(),
+    };
+  },
   components: {
-    HelloWorld
-  }
-}
+    Calendar,
+  },
+});
 </script>
 
 <style>
+@font-face {
+  font-family: 'TpldKhangXiDictTrial';
+  src: url('./fonts/TpldKhangXiDictTrial.otf') format('opentype');
+}
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: TpldKhangXiDictTrial;
+  background-color: #fafafa;
 }
 </style>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="238" height="440" viewBox="0 0 238 440">
+    <defs>
+        <linearGradient id="b" x1="0%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFA786"/>
+            <stop offset="100%" stop-color="#FA5E44"/>
+        </linearGradient>
+        <path id="a" d="M0 0h238v440H0z"/>
+        <linearGradient id="d" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#FFA584"/>
+            <stop offset="100%" stop-color="#FE4D27"/>
+        </linearGradient>
+        <linearGradient id="e" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FFF" stop-opacity=".1"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity=".9"/>
+        </linearGradient>
+        <linearGradient id="f" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#FC8669"/>
+            <stop offset="100%" stop-color="#F9AB7B"/>
+        </linearGradient>
+        <linearGradient id="g" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#FD8E6F"/>
+            <stop offset="100%" stop-color="#FE4D27"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="c" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="url(#b)" xlink:href="#a"/>
+        <g mask="url(#c)">
+            <g transform="translate(74 55)">
+                <path fill="url(#d)" d="M138.769 57.474a12.995 12.995 0 0 1 6.5 11.26c0 4.813-2.615 9.014-6.5 11.262a12.995 12.995 0 0 1-6.5-11.261c0-4.812 2.614-9.013 6.5-11.26z" transform="rotate(29 138.769 68.735)"/>
+                <circle cx="45.5" cy="51.5" r="45.5" fill="url(#e)"/>
+                <path fill="#682C2A" d="M177.553 41.753L124 55.4l-64-2 56.785 10.829 54.26-7.86z"/>
+                <path fill="url(#f)" d="M6.508.037a12.995 12.995 0 0 1 6.5 11.26c0 4.812-2.615 9.014-6.5 11.261a12.995 12.995 0 0 1-6.5-11.26c0-4.812 2.614-9.013 6.5-11.261z" transform="rotate(66 -5.622 72.123)"/>
+                <path fill="url(#g)" d="M107.549 33.45a12.995 12.995 0 0 1 6.5 11.26c0 4.812-2.615 9.014-6.5 11.261a12.995 12.995 0 0 1-6.5-11.26c0-4.812 2.614-9.014 6.5-11.261z" transform="rotate(168 107.549 44.71)"/>
+            </g>
+        </g>
+    </g>
+</svg>
